@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Walk the Quiet Path — You’re Already Home</title>
+  <meta name="description" content="A gentle 7‑day reflection sequence. No pressure. One small, kind step at a time.">
+  <link rel="icon" href="assets/logo.svg">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="wrap header">
+    <div class="brand">
+      <img src="assets/logo.svg" alt="" class="logo">
+      <span>Walk the Quiet Path</span>
+    </div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#series">7‑Day Series</a>
+      <a href="#join">Join</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="wrap hero">
+      <div class="hero-text">
+        <h1>You’re Already Home</h1>
+        <p class="lede">A gentle 7‑day reflection sequence for people in or beyond early recovery. No pressure. No preaching. One small, kind step at a time.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="https://docs.google.com/document/d/1OPTWROJORC2nhKye26SE25fDjcclMEY/copy">Get the 7‑Day Series</a>
+          <a class="btn" href="#join">Join the quiet list</a>
+        </div>
+        <p class="hint">Clicking “Get the 7‑Day Series” opens a Google Docs copy link so it becomes your private version.</p>
+      </div>
+      <div class="hero-art" aria-hidden="true"></div>
+    </section>
+
+    <section id="about" class="wrap cards">
+      <div class="card">
+        <h3>Steady, not loud</h3>
+        <p>Short daily notes with a calm, grounded tone.</p>
+      </div>
+      <div class="card">
+        <h3>Inclusive of all stages</h3>
+        <p>Whether day one or year ten—belonging isn’t earned here.</p>
+      </div>
+      <div class="card">
+        <h3>Keepable practices</h3>
+        <p>Tiny actions your nervous system can trust and repeat.</p>
+      </div>
+    </section>
+
+    <section id="series" class="wrap series">
+      <h2>Inside the 7‑Day Series</h2>
+      <ul class="grid">
+        <li>Day 1: Welcome — you belong already</li>
+        <li>Day 2: A slower rhythm (tiny habits)</li>
+        <li>Day 3: Naming what is (one honest sentence)</li>
+        <li>Day 4: Gentle boundaries</li>
+        <li>Day 5: Quiet nourishment</li>
+        <li>Day 6: When it’s messy (begin again)</li>
+        <li>Day 7: Already home</li>
+      </ul>
+      <a class="btn primary" href="https://docs.google.com/document/d/1OPTWROJORC2nhKye26SE25fDjcclMEY/copy">Get the Series (Google Docs)</a>
+    </section>
+
+    <section id="join" class="wrap join">
+      <div class="join-box">
+        <h2>Join the quiet list</h2>
+        <p>Get gentle notes and resources (no spam, unsubscribe anytime).</p>
+        <!-- TODO: Replace action with your Kit subscribe endpoint and ensure input name matches (often 'email'). -->
+        <form method="post" action="#" class="join-form">
+          <label class="visually-hidden" for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="your@email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+        <p class="tiny">We’ll never share your email. One email a week, max.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <span>© <span id="year"></span> Walk the Quiet Path</span>
+    <div class="links">
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="thank-you.html">Thank you</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
