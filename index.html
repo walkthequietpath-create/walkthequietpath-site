@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Walk the Quiet Path — You’re Already Home</title>
-  <meta name="description" content="A gentle 7‑day reflection sequence. No pressure. One small, kind step at a time.">
+  <meta name="description" content="A gentle 7-day reflection sequence. No pressure. One small, kind step at a time.">
   <link rel="icon" href="assets/logo.svg">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
@@ -16,7 +16,7 @@
     </div>
     <nav class="nav">
       <a href="#about">About</a>
-      <a href="#series">7‑Day Series</a>
+      <a href="#series">7-Day Series</a>
       <a href="#join">Join</a>
     </nav>
   </header>
@@ -25,12 +25,12 @@
     <section class="wrap hero">
       <div class="hero-text">
         <h1>You’re Already Home</h1>
-        <p class="lede">A gentle 7‑day reflection sequence for people in or beyond early recovery. No pressure. No preaching. One small, kind step at a time.</p>
+        <p class="lede">A gentle 7-day reflection sequence for people in or beyond early recovery. No pressure. No preaching. One small, kind step at a time.</p>
         <div class="cta-row">
-          <a class="btn primary" href="https://docs.google.com/document/d/1OPTWROJORC2nhKye26SE25fDjcclMEY/copy">Get the 7‑Day Series</a>
+          <a class="btn primary" href="https://docs.google.com/document/d/1OPTWROJORC2nhKye26SE25fDjcclMEY/copy">Get the 7-Day Series</a>
           <a class="btn" href="#join">Join the quiet list</a>
         </div>
-        <p class="hint">Clicking “Get the 7‑Day Series” opens a Google Docs copy link so it becomes your private version.</p>
+        <p class="hint">Clicking “Get the 7-Day Series” opens a Google Docs copy link so it becomes your private version.</p>
       </div>
       <div class="hero-art" aria-hidden="true"></div>
     </section>
@@ -51,7 +51,7 @@
     </section>
 
     <section id="series" class="wrap series">
-      <h2>Inside the 7‑Day Series</h2>
+      <h2>Inside the 7-Day Series</h2>
       <ul class="grid">
         <li>Day 1: Welcome — you belong already</li>
         <li>Day 2: A slower rhythm (tiny habits)</li>
@@ -66,14 +66,18 @@
 
     <section id="join" class="wrap join">
       <div class="join-box">
-        <h2>Join the quiet list</h2>
+        <h2 id="join-heading">Join the quiet list</h2>
         <p>Get gentle notes and resources (no spam, unsubscribe anytime).</p>
-        <!-- TODO: Replace action with your Kit subscribe endpoint and ensure input name matches (often 'email'). -->
-        <form method="post" action="#" class="join-form">
-          <label class="visually-hidden" for="email">Email</label>
-          <input id="email" name="email" type="email" placeholder="your@email" required>
-          <button type="submit">Subscribe</button>
-        </form>
+
+        <!-- Kit embed: replace UID if Kit shows a different one -->
+        <script
+          async
+          data-uid="5b44764423"
+          src="https://the-quiet-path.kit.com/5b44764423/index.js">
+        </script>
+
+        <noscript><p><em>JavaScript is required to load the signup form.</em></p></noscript>
+
         <p class="tiny">We’ll never share your email. One email a week, max.</p>
       </div>
     </section>
@@ -87,14 +91,9 @@
       <a href="thank-you.html">Thank you</a>
     </div>
   </footer>
-<script async data-uid="5b44764423" src="https://the-quiet-path.kit.com/5b44764423/index.js"></script>
+
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
-</body><style>
-  /* Example selectors—replace with your real one */
-  #old-signup, .old-signup, .mailchimp-form {
-    display: none !important;
-  }
-</style>
+</body>
 </html>
